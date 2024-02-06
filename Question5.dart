@@ -5,10 +5,11 @@ Input: 12345
 Output: Sum of digits: 15
 */
 void main() {
-  int i = 12345, sum = 0, n = 0;
-  while (i > 0) {
-    n = i ~/ 10;
+  int i = 12345, sum = 0,n=0;
+  while (i != 0) {
+    n = i % 10;
     sum = sum + n;
+    i = i ~/ 10;
   }
-  print(n);
+  print(sum);
 }
