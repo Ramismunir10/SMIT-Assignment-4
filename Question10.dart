@@ -8,11 +8,15 @@ Number is : 3 and cube of the 3 is :27
 Number is : 4 and cube of the 4 is :64
 Number is : 5 and cube of the 5 is :125
 */
+import 'dart:io';
 void main() {
-  int n = 5;
-  int a = 2, temp=0;
-  for (int i = 0; i < 3; i++) {
-    temp = a * a * a;
+  print('Enter Number of Terms : ');
+  int n = int.parse(stdin.readLineSync()!);
+  int temp=0;
+  for (int i = 1; i <=n; i++) {
+    for (int j = 0; j < 3; j++) {
+      temp = i*i*i;
+    }
+    print('Number is : $i and cube of the $i is : $temp');
   }
-  print(temp);
 }
