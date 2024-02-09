@@ -7,13 +7,13 @@
 import 'dart:io';
 
 void main() {
-  int number = 4;
-  for (int i = 1; i <=4; i++) {
-    for (int space = number; space > i; space--) {
+  int rows = 3;
+  for (int i = 0; i <= rows; i++) {
+    for (int space = 0; space <= rows-i; space++) {
       stdout.write(' ');
     }
-    for (int k = 1; k <=i; k++) {
-      stdout.write(' * ');
+    for (int k = 0; k <= i; k++) {
+      stdout.write('* ');
     }
     print('');
   }

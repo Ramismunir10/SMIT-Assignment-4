@@ -9,13 +9,22 @@ The pattern like :
 
 import 'dart:io';
 
+// void main() {
+//   for (int i = 1; i < 5; i++) {
+//     for (int j = 1; j < 5; j++) {
+//       if (j < i) {
+//         stdout.write(j);
+//       }
+//     }
+//     print(i);
+//   }
+// }
+
 void main() {
-  for (int i = 1; i < 5; i++) {
-    for (int j = 1; j < 5; j++) {
-      if (j < i) {
-        stdout.write(j);
-      }
+  for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= i; j++) {
+      stdout.write(j);
     }
-    print(i);
+    print('');
   }
 }
