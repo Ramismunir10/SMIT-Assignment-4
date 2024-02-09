@@ -8,16 +8,14 @@ import 'dart:io';
 void main() {
   String correctEmail = 'ramis@gmail.com';
   String correctPassword = 'LeoMessi';
-      String email = stdin.readLineSync()!;
+  while (true) {
+    String email = stdin.readLineSync()!;
     String password = stdin.readLineSync()!;
     if (correctEmail == email && correctPassword == password) {
       print('login successful');
-      //details = true;
+      break;
     } else {
       print('Enter again');
     }
-  // bool details = false;
-  // while (details) {
-
-  // }
+  }
 }

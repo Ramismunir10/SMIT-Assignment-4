@@ -9,11 +9,11 @@ void main() {
       max = numbers[i];
     }
   }
-  print(max);
+  print('Maximum Value: $max');
   for (int i = 0; i < numbers.length; i++) {
     if (numbers[i] < min) {
       min = numbers[i];
     }
   }
-  print(min);
+  print('Minimum Value: $min');
 }
