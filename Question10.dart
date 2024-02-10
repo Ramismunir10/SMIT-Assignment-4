@@ -1,4 +1,4 @@
-/*Q10. Write a program to display the cube of the number up to an integer.
+/*Q10: Write a program to display the cube of the number up to an integer.
 Test Data :
 Input number of terms : 5
 Expected Output :
@@ -9,13 +9,14 @@ Number is : 4 and cube of the 4 is :64
 Number is : 5 and cube of the 5 is :125
 */
 import 'dart:io';
+
 void main() {
   print('Enter Number of Terms : ');
   int n = int.parse(stdin.readLineSync()!);
-  int temp=0;
-  for (int i = 1; i <=n; i++) {
+  int temp = 0;
+  for (int i = 1; i <= n; i++) {
     for (int j = 0; j < 3; j++) {
-      temp = i*i*i;
+      temp = i * i * i;
     }
     print('Number is : $i and cube of the $i is : $temp');
   }

@@ -1,4 +1,4 @@
-/*Write a program to make such a pattern like a right angle triangle with
+/*Q.14: Write a program to make such a pattern like a right angle triangle with
 the number increased by 1 using loop..
 The pattern like :
 1

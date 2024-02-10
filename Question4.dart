@@ -9,7 +9,7 @@ import 'dart:io';
 
 void main() {
   int b = 1;
-  print('Enter The Number: ');
+  stdout.write('Enter The Number: ');
   int a = int.parse(stdin.readLineSync()!);
   for (int i = 1; i <= a; i++) {
     b = b * i;

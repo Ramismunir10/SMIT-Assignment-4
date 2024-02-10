@@ -8,22 +8,24 @@ The pattern like :
 */
 import 'dart:io';
 
-// void main() {
-//   for (int i = 1; i < 5; i++) {
-//     for (int j = 1; j < 5; j++) {
-//       if (j < i) {
-//         stdout.write(i);
-//       }
-//     }
-//     print(i);
-//   }
-// }
-
 void main() {
-  for (int i = 1; i <= 4; i++) {
-    for (int j = 1; j <= i; j++) {
+  for (int i = 1; i < 5; i++) {
+    for (int j = 1; j < 5; j++) {
+      if (j < i) {
         stdout.write(i);
+      }
     }
-    print('');
+    print(i);
   }
 }
+
+//Using 2nd Logic
+
+// void main() {
+//   for (int i = 1; i <= 4; i++) {
+//     for (int j = 1; j <= i; j++) {
+//         stdout.write(i);
+//     }
+//     print('');
+//   }
+// }

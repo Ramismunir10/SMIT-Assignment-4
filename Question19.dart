@@ -1,4 +1,4 @@
-/*Q19. Write a program that takes a list of numbers as input and prints the
+/*Q19: Write a program that takes a list of numbers as input and prints the
 numbers greater than 5 using a for loop and if-else condition.*/
 
 import 'dart:io';
@@ -20,5 +20,6 @@ void main() {
     }
   }
   numbersGreaterThan5.sort();
-  print('The numbers greater than 5: $numbersGreaterThan5');
+  int length = numbersGreaterThan5.length;
+  print('There are $length numbers greater than 5: $numbersGreaterThan5');
 }

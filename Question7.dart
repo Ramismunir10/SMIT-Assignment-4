@@ -1,4 +1,4 @@
-/*Write a program that prints the multiplication table of a given number
+/*Q.7: Write a program that prints the multiplication table of a given number
 using a for loop.
 Example:
 Input: 5
@@ -9,9 +9,12 @@ Output:
 ...
 5 x 10 = 50*/
 
+import 'dart:io';
+
 void main() {
-  int n = 5;
+  stdout.write('Enter The Number: ');
+  int number = int.parse(stdin.readLineSync()!);
   for (int i = 1; i <= 10; i++) {
-    print('$n x $i = ${i * n}');
+    print('$number x $i = ${i * number}');
   }
 }

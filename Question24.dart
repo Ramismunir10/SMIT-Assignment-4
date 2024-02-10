@@ -1,4 +1,4 @@
-/*Q24. Implement a code that finds the average of all the negative numbers in
+/*Q24: Implement a code that finds the average of all the negative numbers in
 a list using a for loop and if-else condition.
 */
 import 'dart:io';
@@ -25,15 +25,14 @@ void main() {
   for (var number in numbersLessThan0) {
     sum = sum + number;
   }
-  print('sum is $sum');
+  print('Sum: $sum');
   int totalDigits = 0;
 
   for (int number in numbersLessThan0) {
     totalDigits++;
     number;
   }
-  print("Total Number $totalDigits");
-  int avg;
-  avg = sum ~/ totalDigits;
+  print("Total Numbers: $totalDigits");
+  double avg = sum / totalDigits;
   print("Average of Negative Numbers is: $avg");
 }

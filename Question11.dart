@@ -19,8 +19,10 @@ void main() {
   }
 }
 
+//Using 2nd Logic
+
 // void main() {
-//   for (int i = 1; i <= 5; i++) {
+//   for (int i = 1; i < 5; i++) {
 //     for (int j = 1; j <= i; j++) {
 //       stdout.write('*');
 //     }
@@ -28,45 +30,3 @@ void main() {
 //   }
 // }
 
-// void main() {
-//   for (int i = 1; i <= 5; i++) {
-//     for (int j = 5; j >= i; j--) {
-//       stdout.write('*');
-//     }
-//     print('');
-//   }
-// }
-
-// void main() {
-//   for (int i = 5; i >= 1; i--) {
-//     for (int j = 1; j <= i; j++) {
-//       stdout.write('*');
-//     }
-//     print('');
-//   }
-// }
-
-// void main() {
-//   for (int i = 1; i <= 5; i++) {
-//     for (int k = 4; k >= i; k--) {
-//       stdout.write(' ');
-//     }
-//     for (int j = 1; j <= i; j++) {
-//       stdout.write('*');
-//     }
-//     print('');
-//   }
-// }
-
-// void main() {
-//   for (int i = 1; i <= 5; i++) {
-//     for (int j = 1; j <= 5; j++) {
-//       if (i + j <= 5) {
-//         stdout.write(' ');
-//       } else {
-//         stdout.write('*');
-//       }
-//     }
-//     print('');
-//   }
-// }

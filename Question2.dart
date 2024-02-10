@@ -6,7 +6,7 @@ Output: 0 1 1 2 3 5 8*/
 import 'dart:io';
 
 void main() {
-  stdout.write("Enter a number: ");
+  stdout.write("Enter a number the Fibonacci sequence is up to: ");
   int limit = int.parse(stdin.readLineSync()!);
   int a = 0, b = 1;
   for (int i = 0; a <= limit; i++) {

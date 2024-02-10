@@ -1,4 +1,4 @@
-/*Write a program that calculates the sum of the squares of all odd
+/*Q.22: Write a program that calculates the sum of the squares of all odd
 numbers in a given list using a for loop and if-else condition.
 */
 void main() {
@@ -19,5 +19,6 @@ void main() {
   for (int element in squares) {
     sum = sum + element;
   }
-  print('The sum of odd number in the list $squares is $sum');
+  print(
+      'The sum of the squares of all odd number in the list $squares is $sum');
 }
